@@ -18,7 +18,8 @@ RUN cd ${dir} && npm install --only=production
 
 # Run base binary (generated from package.json!bin)
 WORKDIR ${dir}
-ENTRYPOINT ["node", "./bin/query.js"]
+ENTRYPOINT ["node", "./bin/http.js"]
 
 # Default command
 CMD ["--help"]
+

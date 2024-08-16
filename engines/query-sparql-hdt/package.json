@@ -198,7 +198,8 @@
     "@comunica/mediator-race": "^3.2.1",
     "@comunica/runner": "^3.2.1",
     "@comunica/runner-cli": "^3.2.1",
-    "@comunica/types": "^3.2.1"
+    "@comunica/types": "^3.2.1",
+    "sparqljs": "^3.7.2"
   },
   "browser": {
     "./lib/index.js": "./lib/index-browser.js"
