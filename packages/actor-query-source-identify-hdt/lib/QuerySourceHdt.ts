@@ -2,7 +2,7 @@ import type { BindingsFactory } from '@comunica/bindings-factory';
 import { quadsToBindings } from '@comunica/bus-query-source-identify';
 import { KeysQueryOperation } from '@comunica/context-entries';
 import { MetadataValidationState } from '@comunica/metadata';
-import type { IQuerySource, FragmentSelectorShape, IActionContext, BindingsStream } from '@comunica/types';
+import type { IQuerySource, FragmentSelectorShape, IActionContext, BindingsStream, PathStream } from '@comunica/types';
 import type * as RDF from '@rdfjs/types';
 import type { AsyncIterator } from 'asynciterator';
 import { ArrayIterator } from 'asynciterator';
@@ -93,6 +93,13 @@ export class QuerySourceHdt implements IQuerySource {
   ): AsyncIterator<RDF.Quad> {
     throw new Error('queryQuads is not implemented in QuerySourceHdt');
   }
+  
+  public queryPaths(
+      _operation: Algebra.Operation,
+      _context: IActionContext,
+    ): PathStream {
+      throw new Error('queryPaths is not implemented in QuerySourceHdt');
+    }
 
   public queryBoolean(
     _operation: Algebra.Ask,
