@@ -37,17 +37,17 @@
     "build:components": "componentsjs-generator"
   },
   "dependencies": {
-    "@comunica/bindings-factory": "^3.2.1",
-    "@comunica/bus-merge-bindings-context": "^3.2.1",
-    "@comunica/bus-query-source-identify": "^3.2.2",
-    "@comunica/context-entries": "^3.2.1",
-    "@comunica/core": "^3.2.1",
-    "@comunica/metadata": "^3.2.1",
-    "@comunica/types": "^3.2.1",
-    "@rdfjs/types": "*",
+    "@comunica/bindings-factory": "3.2.300",
+    "@comunica/bus-merge-bindings-context": "3.2.300",
+    "@comunica/bus-query-source-identify": "3.2.300",
+    "@comunica/context-entries": "3.2.300",
+    "@comunica/core": "3.2.300",
+    "@comunica/metadata": "3.2.300",
+    "@comunica/types": "3.2.300",
+    "@rdfjs/types": "1.1.100",
     "asynciterator": "^3.9.0",
     "hdt": "^3.1.0",
     "rdf-data-factory": "^1.1.1",
-    "sparqlalgebrajs": "^4.3.3"
+    "sparqlalgebrajs": "4.3.800"
   }
 }

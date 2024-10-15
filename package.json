@@ -4,7 +4,9 @@
   "workspaces": [
     "engines/*",
     "packages/*",
-    "performance/*"
+    "performance/*",
+    ".yalc/*",
+    ".yalc/@*/*"
   ],
   "scripts": {
     "test-changed": "lerna run test --since HEAD",
@@ -50,7 +52,7 @@
     "rdf-data-factory": "^1.1.0",
     "rdf-quad": "^1.5.0",
     "rdf-test-suite-ldf": "^1.5.0",
-    "sparqlalgebrajs": "^4.0.0",
+    "sparqlalgebrajs": "^4.3.800",
     "stream-to-string": "^1.1.0",
     "streamify-array": "^1.0.0",
     "streamify-string": "^1.0.1",
@@ -64,5 +66,12 @@
     "build",
     "lint",
     "test"
-  ]
+  ],
+  "resolutions": {
+    "@comunica/types": "3.2.300",
+    "@rdfjs/types": "1.1.100",
+    "sparqlalgebrajs": "4.3.800",
+    "sparqljs": "3.7.300"
+  },
+  "packageManager": "yarn@1.22.22"
 }
