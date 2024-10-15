@@ -93,13 +93,13 @@ export class QuerySourceHdt implements IQuerySource {
   ): AsyncIterator<RDF.Quad> {
     throw new Error('queryQuads is not implemented in QuerySourceHdt');
   }
-  
+
   public queryPaths(
-      _operation: Algebra.Operation,
-      _context: IActionContext,
-    ): PathStream {
-      throw new Error('queryPaths is not implemented in QuerySourceHdt');
-    }
+    _operation: Algebra.Operation,
+    _context: IActionContext,
+  ): PathStream {
+    throw new Error('queryPaths is not implemented in QuerySourceHdt');
+  }
 
   public queryBoolean(
     _operation: Algebra.Ask,
