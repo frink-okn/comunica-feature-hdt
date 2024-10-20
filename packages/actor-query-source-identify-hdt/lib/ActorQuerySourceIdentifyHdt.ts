@@ -14,7 +14,7 @@ import * as HDT from 'hdt';
 import { QuerySourceHdt } from './QuerySourceHdt';
 
 /**
- * A comunica Hdt Query Source Identify Actor.
+ * A Comunica Hdt Query Source Identify Actor.
  */
 export class ActorQuerySourceIdentifyHdt extends ActorQuerySourceIdentify {
   private createdSources: WeakRef<QuerySourceHdt>[] = [];
