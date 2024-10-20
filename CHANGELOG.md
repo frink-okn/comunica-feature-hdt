@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+<a name="v3.0.301"></a>
+## [v3.0.301](https://github.com/comunica/comunica-feature-hdt/compare/v3.0.300...v3.0.301) - 2024-10-20
+
+### TODO: categorize commits, choose titles from: Added, Changed, Deprecated, Removed, Fixed, Security.
+* [Capitalization.](https://github.com/comunica/comunica-feature-hdt/commit/b58fe204bfb8aeef24e02426483befd53918d42e)
+* [Publishing again.](https://github.com/comunica/comunica-feature-hdt/commit/5934eb62f9a51b20c0a9c51418500df361b94197)
+
 <a name="v3.0.300"></a>
 ## [v3.0.300](https://github.com/comunica/comunica-feature-hdt/compare/v3.0.3...v3.0.300) - 2024-10-20
 
